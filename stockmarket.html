@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stock Market Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">📈 StockPro</div>
+  <div class="portfolio">
+    Portfolio Value: <span id="portfolio-value">$0</span>
+  </div>
+</header>
+
+<main class="main">
+
+  <div class="stocks-section">
+    <div class="section-header">
+      <h2>Live Stock Prices</h2>
+      <input type="text" id="search-stock" placeholder="Search..." onkeyup="searchStocks()">
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Stock</th>
+          <th>Price</th>
+          <th>Change</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="stocks-tbody"></tbody>
+    </table>
+  </div>
+
+  <div class="watchlist-section">
+    <h2>⭐ Watchlist</h2>
+    <div id="watchlist-items"></div>
+  </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

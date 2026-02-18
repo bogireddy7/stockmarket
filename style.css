@@ -1,0 +1,106 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:#0f172a; /* Deep Navy */
+  color:#f1f5f9;
+}
+
+.header{
+  background:#1e293b;
+  padding:18px 32px;
+  border-bottom:3px solid #ff9933; /* Saffron Accent */
+}
+
+.logo{
+  font-size:1.4rem;
+  font-weight:800;
+  color:#ff9933;
+}
+
+.main{
+  padding:30px;
+}
+
+.stocks-section{
+  background:#1e293b;
+  border-radius:12px;
+  overflow:hidden;
+  border:1px solid #334155;
+}
+
+.section-header{
+  padding:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #334155;
+}
+
+.section-title{
+  font-weight:800;
+  font-size:1.1rem;
+  color:#ff9933;
+}
+
+.search-input{
+  padding:8px;
+  background:#0f172a;
+  border:1px solid #475569;
+  border-radius:6px;
+  color:white;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th{
+  padding:14px 20px;
+  text-align:left;
+  background:#0f172a;
+  color:#94a3b8;
+  font-size:0.8rem;
+}
+
+td{
+  padding:16px 20px;
+  border-top:1px solid #334155;
+  font-size:0.9rem;
+}
+
+tbody tr:hover{
+  background:#334155;
+}
+
+.change-up{
+  color:#22c55e; /* Green */
+  font-weight:700;
+}
+
+.change-down{
+  color:#ef4444;
+  font-weight:700;
+}
+
+.action-btn{
+  padding:6px 12px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.btn-buy{
+  background:#ff9933; /* Saffron */
+  color:white;
+}
+
+.btn-buy:hover{
+  background:#e67e22;
+}
